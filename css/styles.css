@@ -6,7 +6,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #3e3f47;
-  margin-bottom: 100px;
+
   width:100%;
 
 }
@@ -141,11 +141,11 @@ body pre code.smallText {
   font-size: .75em;
 }
 
-img.img-responsive {
-  height:65px;
+.logo {
+  width: 90px;
   float:left;
   display:block;
-  margin-top:-25px;
+  margin-top:-28px;
 
 }
 
@@ -179,27 +179,41 @@ h1 {
   width: 100%;
 }
 h2 {
+
   font-size:2em;
 }
 
-p {
-  font-size:.5em;
+h3 {
+  font-size:1em;
   text-align:left;
+}
+p {
+  font-size: 1em;
+  text-align:center;
 }
 html {
   position: relative;
   min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
+
 footer {
-  margin-top:1130px;
+  margin-top:130px;
   position: relative;
   bottom: -6px;
   width: 100%;
 
   height: 110px;
   background-color: #000;
+}
+ button {
+   color:#fff;
+   background-color:#0bd;
+   border-radius:3px;
+   border-style:none;
+ }
+
+h4 {
+  color:#0af;
+  text-align:center;
+  font-size: 1em;
 }
