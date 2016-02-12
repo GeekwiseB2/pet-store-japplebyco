@@ -158,15 +158,28 @@ div#navbar.navbar-collapse.collapse {
   background-color: #fff;
 
 }
+.navbar-default {
+  border-color: #fff;
+  
+}
 
-img.banner {
+div.panel-body.text-center {
+  background-color: #f2f2f2;
+}
+h5.panel-title {
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #fff;
+  font-weight:bold;
+ }
+img.container-fluid {
   height:700px;
   float:left;
   display:block;
   margin-top:-20px;
   position: relative;
   overflow: visible;
-
+  background-size:cover;
 }
 
 h1 {
@@ -179,13 +192,14 @@ h1 {
   width: 100%;
 }
 h2 {
-
+  margin-top:40px;
   font-size:2em;
 }
 
 h3 {
   font-size:1em;
-  text-align:left;
+  text-align:center;
+
 }
 p {
   font-size: 1em;
@@ -216,4 +230,13 @@ h4 {
   color:#0af;
   text-align:center;
   font-size: 1em;
+  margin-top:20px;
+}
+span {
+  padding-left:10px;
+}
+
+h6 {
+  font-size: 5em;
+  text-align: center;
 }
